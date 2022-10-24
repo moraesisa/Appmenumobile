@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="View\componentesprimeiro.xaml.cs">
+      <DependentUpon>componentesprimeiro.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\componentessegundo.xaml.cs">
+      <DependentUpon>componentessegundo.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\componentesterceiro.xaml.cs">
+      <DependentUpon>componentesterceiro.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\Contato.xaml.cs">
+      <DependentUpon>Contato.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\Vestibulinho.xaml.cs">
+      <DependentUpon>Vestibulinho.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="View\Vercomponente.xaml.cs">
+      <DependentUpon>Vercomponente.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="View\componentesprimeiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\componentessegundo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\componentesterceiro.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Contato.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Vestibulinho.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Vercomponente.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
