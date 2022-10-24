@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {},
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "UAP,Version=v10.0.16299": [
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.12",
+      "Xamarin.Essentials >= 1.7.0",
+      "Xamarin.Forms >= 5.0.0.2196"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\mobile\\Appmenuhamburguer\\Appmenuhamburguer\\Appmenuhamburguer.UWP\\Appmenuhamburguer.UWP.csproj",
+      "projectName": "Appmenuhamburguer.UWP",
+      "projectPath": "E:\\mobile\\Appmenuhamburguer\\Appmenuhamburguer\\Appmenuhamburguer.UWP\\Appmenuhamburguer.UWP.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "E:\\mobile\\Appmenuhamburguer\\Appmenuhamburguer\\Appmenuhamburguer.UWP\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "uap10.0.16299"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "uap10.0.16299": {
+          "projectReferences": {
+            "E:\\mobile\\Appmenuhamburguer\\Appmenuhamburguer\\Appmenuhamburguer\\Appmenuhamburguer.csproj": {
+              "projectPath": "E:\\mobile\\Appmenuhamburguer\\Appmenuhamburguer\\Appmenuhamburguer\\Appmenuhamburguer.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "uap10.0.16299": {
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": {
+            "target": "Package",
+            "version": "[6.2.12, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2196, )"
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "win10-arm": {
+        "#import": []
+      },
+      "win10-arm-aot": {
+        "#import": []
+      },
+      "win10-arm64-aot": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x64-aot": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      },
+      "win10-x86-aot": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Falha ao baixar o pacote 'Microsoft.Net.Native.Compiler.2.2.10-rel-29722-00' de 'https://api.nuget.org/v3-flatcontainer/microsoft.net.native.compiler/2.2.10-rel-29722-00/microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg'.\r\nOcorreu um erro ao enviar a solicitação.\r\n  O nome remoto não pôde ser resolvido: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Falha ao baixar o pacote 'runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.2.2.12' de 'https://api.nuget.org/v3-flatcontainer/runtime.win10-x86.microsoft.net.uwpcoreruntimesdk/2.2.12/runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg'.\r\nOcorreu um erro ao enviar a solicitação.\r\n  O nome remoto não pôde ser resolvido: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Falha ao baixar o pacote 'runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.2.2.12' de 'https://api.nuget.org/v3-flatcontainer/runtime.win10-arm.microsoft.net.uwpcoreruntimesdk/2.2.12/runtime.win10-arm.microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg'.\r\nOcorreu um erro ao enviar a solicitação.\r\n  O nome remoto não pôde ser resolvido: 'api.nuget.org'"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk' da origem remota 'https://api.nuget.org/v3-flatcontainer/runtime.win10-x64.microsoft.net.uwpcoreruntimesdk/index.json'.",
+      "libraryId": "runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'Microsoft.Net.Native.Compiler' da origem remota 'https://api.nuget.org/v3-flatcontainer/microsoft.net.native.compiler/index.json'.",
+      "libraryId": "Microsoft.Net.Native.Compiler"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk' da origem remota 'https://api.nuget.org/v3-flatcontainer/runtime.win10-arm.microsoft.net.uwpcoreruntimesdk/index.json'.",
+      "libraryId": "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk' da origem remota 'https://api.nuget.org/v3-flatcontainer/runtime.win10-x86.microsoft.net.uwpcoreruntimesdk/index.json'.",
+      "libraryId": "runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk"
+    }
+  ]
+}

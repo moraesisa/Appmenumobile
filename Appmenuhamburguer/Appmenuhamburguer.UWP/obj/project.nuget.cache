@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "dgSpecHash": "DYcTqWLQnH0+5UPC0UxBgFzJPlbtRXZtXrSwk+9pg9RLCN7+OSm4VKwTCDzaTuTdLeg6+CnqCY4TVVHsrNJzWQ==",
+  "success": false,
+  "projectFilePath": "E:\\mobile\\Appmenuhamburguer\\Appmenuhamburguer\\Appmenuhamburguer.UWP\\Appmenuhamburguer.UWP.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Falha ao baixar o pacote 'Microsoft.Net.Native.Compiler.2.2.10-rel-29722-00' de 'https://api.nuget.org/v3-flatcontainer/microsoft.net.native.compiler/2.2.10-rel-29722-00/microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg'.\r\nOcorreu um erro ao enviar a solicitação.\r\n  O nome remoto não pôde ser resolvido: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Falha ao baixar o pacote 'runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.2.2.12' de 'https://api.nuget.org/v3-flatcontainer/runtime.win10-x86.microsoft.net.uwpcoreruntimesdk/2.2.12/runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg'.\r\nOcorreu um erro ao enviar a solicitação.\r\n  O nome remoto não pôde ser resolvido: 'api.nuget.org'"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Falha ao baixar o pacote 'runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.2.2.12' de 'https://api.nuget.org/v3-flatcontainer/runtime.win10-arm.microsoft.net.uwpcoreruntimesdk/2.2.12/runtime.win10-arm.microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg'.\r\nOcorreu um erro ao enviar a solicitação.\r\n  O nome remoto não pôde ser resolvido: 'api.nuget.org'"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk' da origem remota 'https://api.nuget.org/v3-flatcontainer/runtime.win10-x64.microsoft.net.uwpcoreruntimesdk/index.json'.",
+      "libraryId": "runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'Microsoft.Net.Native.Compiler' da origem remota 'https://api.nuget.org/v3-flatcontainer/microsoft.net.native.compiler/index.json'.",
+      "libraryId": "Microsoft.Net.Native.Compiler"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk' da origem remota 'https://api.nuget.org/v3-flatcontainer/runtime.win10-arm.microsoft.net.uwpcoreruntimesdk/index.json'.",
+      "libraryId": "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Falha ao recuperar informações sobre 'runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk' da origem remota 'https://api.nuget.org/v3-flatcontainer/runtime.win10-x86.microsoft.net.uwpcoreruntimesdk/index.json'.",
+      "libraryId": "runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk"
+    }
+  ]
+}
